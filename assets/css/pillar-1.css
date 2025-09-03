@@ -10495,3 +10495,13 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   
 }
 
+/* Initial setup for the image */
+.picture {
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Adjust this as needed */
+    transition: all 0.3s ease;
+    overflow: hidden; /* Hide the glitch effect outside the image */
+    object-fit: cover; /* Ensures the image fits correctly */
+}
+
