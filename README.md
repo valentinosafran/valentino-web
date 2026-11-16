@@ -13,8 +13,7 @@ social metadata and `sitemap.xml` date in sync with substantive updates.
 
 The portrait has 200 px and 400 px WebP versions. The original photographs,
 Pillar styles and Font Awesome assets remain in the repository for
-reference; the page does not request them. Original template credit is
-preserved in the footer.
+reference; the page does not request them. Source attribution remains in stylesheet comments and the original assets.
 
 Netlify publishes the repository root using `netlify.toml`. `_headers`
 sets security headers, HTML revalidation, and modest asset caching so
