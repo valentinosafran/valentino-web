@@ -1,0 +1,83 @@
+{
+  "en": {
+    "title": "Valentino Šafran | AI & Digital Health Researcher",
+    "description": "Valentino Šafran - PhD student and researcher at HUMADEX, University of Maribor (UM FERI). AI, digital health transformation, IoT and cybersecurity.",
+    "imageAlt": "Portrait of Valentino Šafran", "skip": "Skip to content",
+    "languageLabel": "Language", "languageAria": "Website language",
+    "sectionsAria": "Page sections", "sidebarAria": "Skills, education and profile",
+    "aboutTitle": "About", "intro": "I build secure, connected digital health systems that bring research into practice.",
+    "about": [
+      "I’m a PhD student and researcher with the <a href=\"https://humadex.feri.um.si/\" itemprop=\"affiliation\">HUMADEX research group</a> at the <a href=\"https://feri.um.si/en/\">University of Maribor, Faculty of Electrical Engineering and Computer Science (UM FERI)</a>. My work connects AI, healthcare data interoperability, IoT and cybersecurity through European research projects.",
+      "With a master’s degree in Telecommunications, I develop microservices and cloud infrastructure, work with HL7 FHIR and secure data flows, and help evaluate digital tools in clinical settings. My interests include AI-supported care, conversational systems and resilient healthcare platforms."
+    ],
+    "navExperience": "Experience", "navPublications": "Publications", "contact": "Get in touch",
+    "download": "Download CV", "downloadTitle": "Download the English CV - PDF, 2 pages",
+    "experienceTitle": "Experience",
+    "experienceIntro": "I develop and maintain research platforms, from infrastructure and secure APIs to healthcare data integration and real-world evaluation.",
+    "projects": [
+      {"paragraphs": ["Research exchange with Dextera Consulting in Limassol, Cyprus, exploring how AI and virtual twin technologies can support personalised cardiovascular care."], "source": "Secondment announcement on HUMADEX’s LinkedIn"},
+      {"bullets": ["Expand FHIR server architecture and automate healthcare data flows.", "Implement Keycloak authentication, VPN and firewall controls; develop and maintain Python and Java microservices, VMs and containers."]},
+      {"bullets": ["Developed an HL7 FHIR patient-resource database, REST services and the supporting infrastructure at UM FERI.", "Helped integrate and evaluate the Pepper humanoid robot with patients, doctors and nurses at University Medical Centre Maribor."]},
+      {"bullets": ["Developed an incident-management component using finite state machines and Java’s Spring State Machine framework.", "Integrated REST communication with Apache Camel and event streaming with Kafka; tested AI-based threat-detection microservices."]},
+      {"paragraphs": ["Contributed to a multimodal sensing network for patient-reported data and quality-of-life assessment. Managed physical servers, VMs and containers; developed Python, Flask and Spring Boot services with MQTT, REST, Apache Camel and Kafka."]}
+    ],
+    "expertiseTitle": "Expertise",
+    "publicationDescriptions": ["Evaluation of psychiatrist-, chatbot- and robot-led screening with young people and clinical experts.", "Secure healthcare interoperability, containerised microservices and platform load testing.", "Clinical decision support and the feasibility of socially assistive robots in hospital workflows.", "Multilingual conversational tools for risk assessment and patient-reported symptoms."],
+    "languageNames": ["Croatian", "English", "Slovenian"], "languageLevels": ["Native", "Professional", "Professional"],
+    "connectTitle": "Find me online", "sicris": "SICRIS bibliography", "backToTop": "Back to top"
+  },
+  "hr": {
+    "title": "Valentino Šafran | Istraživač umjetne inteligencije i digitalnog zdravlja",
+    "description": "Valentino Šafran - doktorand i istraživač u skupini HUMADEX na Sveučilištu u Mariboru (UM FERI). Umjetna inteligencija, digitalno zdravlje, IoT i kibernetička sigurnost.",
+    "imageAlt": "Portret Valentina Šafrana", "skip": "Preskoči na sadržaj",
+    "languageLabel": "Jezik", "languageAria": "Jezik web-stranice",
+    "sectionsAria": "Odjeljci stranice", "sidebarAria": "Vještine, obrazovanje i profil",
+    "aboutTitle": "O meni", "intro": "Razvijam sigurne i povezane digitalne zdravstvene sustave koji istraživanja prenose u praksu.",
+    "about": [
+      "Doktorand sam i istraživač u <a href=\"https://humadex.feri.um.si/\" itemprop=\"affiliation\">istraživačkoj skupini HUMADEX</a> na <a href=\"https://feri.um.si/en/\">Fakultetu elektrotehnike, računarstva i informatike Sveučilišta u Mariboru (UM FERI)</a>. Moj rad povezuje umjetnu inteligenciju, interoperabilnost zdravstvenih podataka, IoT i kibernetičku sigurnost kroz europske istraživačke projekte.",
+      "Nakon završenog magistarskog studija telekomunikacija razvijam mikroservise i infrastrukturu u oblaku, radim sa standardom HL7 FHIR i sigurnim tokovima podataka te sudjelujem u vrednovanju digitalnih alata u kliničkom okruženju. Moji interesi obuhvaćaju zdravstvenu skrb potpomognutu umjetnom inteligencijom, razgovorne sustave i otporne zdravstvene platforme."
+    ],
+    "navExperience": "Iskustvo", "navPublications": "Publikacije", "contact": "Kontakt",
+    "download": "Preuzmi životopis", "downloadTitle": "Preuzmi životopis na hrvatskom - PDF, 2 stranice",
+    "experienceTitle": "Iskustvo",
+    "experienceIntro": "Razvijam i održavam istraživačke platforme - od infrastrukture i sigurnih API-ja do integracije zdravstvenih podataka i vrednovanja u stvarnim uvjetima.",
+    "projects": [
+      {"paragraphs": ["Istraživačka razmjena u tvrtki Dextera Consulting u Limassolu na Cipru. Istražujem kako umjetna inteligencija i tehnologije virtualnih blizanaca mogu podržati personaliziranu kardiovaskularnu skrb."], "source": "Najava istraživačke razmjene na HUMADEX-ovu LinkedInu"},
+      {"bullets": ["Proširujem arhitekturu FHIR poslužitelja i automatiziram tokove zdravstvenih podataka.", "Implementiram autentifikaciju s pomoću Keycloaka, VPN i vatrozidna pravila te razvijam i održavam mikroservise u Pythonu i Javi, virtualne strojeve i kontejnere."]},
+      {"bullets": ["Razvio sam bazu podataka o pacijentima prema standardu HL7 FHIR, REST servise i prateću infrastrukturu na UM FERI-ju.", "Sudjelovao sam u integraciji i vrednovanju humanoidnog robota Pepper s pacijentima, liječnicima i medicinskim sestrama u UKC-u Maribor."]},
+      {"bullets": ["Razvio sam komponentu za upravljanje incidentima s pomoću konačnih automata i okvira Spring State Machine u Javi.", "Integrirao sam REST komunikaciju putem Apache Camela i tokove događaja putem Kafke te testirao mikroservise za otkrivanje prijetnji primjenom umjetne inteligencije."]},
+      {"paragraphs": ["Sudjelovao sam u razvoju multimodalne mreže za prikupljanje podataka koje prijavljuju pacijenti i procjenu kvalitete života. Upravljao sam fizičkim poslužiteljima, virtualnim strojevima i kontejnerima te razvijao servise u Pythonu, Flasku i Spring Bootu uz MQTT, REST, Apache Camel i Kafku."]}
+    ],
+    "expertiseTitle": "Vještine",
+    "publicationDescriptions": ["Vrednovanje probirnih razgovora koje vode psihijatri, chatbotovi i roboti s mladima i kliničkim stručnjacima.", "Sigurna interoperabilnost zdravstvenih podataka, kontejnerizirani mikroservisi i testiranje opterećenja platforme.", "Klinička podrška odlučivanju i izvedivost primjene socijalno asistivnih robota u bolničkim radnim procesima.", "Višejezični razgovorni alati za procjenu rizika i praćenje simptoma koje prijavljuju pacijenti."],
+    "languageNames": ["Hrvatski", "Engleski", "Slovenski"], "languageLevels": ["Materinski", "Profesionalna razina", "Profesionalna razina"],
+    "connectTitle": "Pronađite me online", "sicris": "Bibliografija SICRIS", "backToTop": "Povratak na vrh"
+  },
+  "sl": {
+    "title": "Valentino Šafran | Raziskovalec umetne inteligence in digitalnega zdravja",
+    "description": "Valentino Šafran - doktorski študent in raziskovalec v skupini HUMADEX na Univerzi v Mariboru (UM FERI). Umetna inteligenca, digitalno zdravje, IoT in kibernetska varnost.",
+    "imageAlt": "Portret Valentina Šafrana", "skip": "Preskoči na vsebino",
+    "languageLabel": "Jezik", "languageAria": "Jezik spletne strani",
+    "sectionsAria": "Razdelki strani", "sidebarAria": "Znanja, izobrazba in profil",
+    "aboutTitle": "O meni", "intro": "Razvijam varne in povezane digitalne zdravstvene sisteme, ki raziskave prenašajo v prakso.",
+    "about": [
+      "Sem doktorski študent in raziskovalec v <a href=\"https://humadex.feri.um.si/\" itemprop=\"affiliation\">raziskovalni skupini HUMADEX</a> na <a href=\"https://feri.um.si/en/\">Fakulteti za elektrotehniko, računalništvo in informatiko Univerze v Mariboru (UM FERI)</a>. Moje delo v evropskih raziskovalnih projektih povezuje umetno inteligenco, interoperabilnost zdravstvenih podatkov, internet stvari in kibernetsko varnost.",
+      "Po zaključenem magistrskem študiju telekomunikacij razvijam mikrostoritve in infrastrukturo v oblaku, delam s standardom HL7 FHIR in varnimi podatkovnimi tokovi ter sodelujem pri vrednotenju digitalnih orodij v kliničnem okolju. Zanimajo me zdravstvena obravnava s podporo umetne inteligence, pogovorni sistemi in odporne zdravstvene platforme."
+    ],
+    "navExperience": "Izkušnje", "navPublications": "Objave", "contact": "Kontakt",
+    "download": "Prenesi življenjepis", "downloadTitle": "Prenesi življenjepis v slovenščini - PDF, 2 strani",
+    "experienceTitle": "Izkušnje",
+    "experienceIntro": "Razvijam in vzdržujem raziskovalne platforme - od infrastrukture in varnih API-jev do povezovanja zdravstvenih podatkov ter vrednotenja v resničnih okoljih.",
+    "projects": [
+      {"paragraphs": ["Raziskovalna izmenjava pri podjetju Dextera Consulting v Limassolu na Cipru. Raziskujem, kako lahko umetna inteligenca in tehnologije virtualnih dvojčkov podprejo prilagojeno srčno-žilno obravnavo."], "source": "Najava raziskovalne izmenjave na HUMADEX-ovem LinkedInu"},
+      {"bullets": ["Razširjam arhitekturo strežnika FHIR in avtomatiziram tokove zdravstvenih podatkov.", "Vpeljujem avtentikacijo s Keycloakom, VPN in pravila požarnega zidu ter razvijam in vzdržujem mikrostoritve v Pythonu in Javi, navidezne stroje in vsebnike."]},
+      {"bullets": ["Razvil sem podatkovno zbirko o pacientih po standardu HL7 FHIR, storitve REST in podporno infrastrukturo na UM FERI.", "Sodeloval sem pri integraciji in vrednotenju humanoidnega robota Pepper s pacienti, zdravniki in medicinskimi sestrami v UKC Maribor."]},
+      {"bullets": ["Razvil sem komponento za upravljanje incidentov s končnimi avtomati in ogrodjem Spring State Machine v Javi.", "Povezal sem komunikacijo REST z Apache Camelom in pretakanje dogodkov s Kafko ter preizkušal mikrostoritve za zaznavanje groženj z umetno inteligenco."]},
+      {"paragraphs": ["Sodeloval sem pri razvoju večmodalnega zaznavnega omrežja za podatke, o katerih poročajo pacienti, in ocenjevanje kakovosti življenja. Upravljal sem fizične strežnike, navidezne stroje in vsebnike ter razvijal storitve s Pythonom, Flaskom in Spring Bootom z MQTT, REST, Apache Camelom in Kafko."]}
+    ],
+    "expertiseTitle": "Znanja",
+    "publicationDescriptions": ["Vrednotenje presejalnih pogovorov, ki jih vodijo psihiatri, klepetalniki in roboti, z mladimi in kliničnimi strokovnjaki.", "Varna interoperabilnost zdravstvenih podatkov, mikrostoritve v vsebnikih in obremenitveno testiranje platforme.", "Klinična podpora odločanju in izvedljivost uporabe socialno podpornih robotov v bolnišničnih delovnih procesih.", "Večjezična pogovorna orodja za ocenjevanje tveganja in spremljanje simptomov, o katerih poročajo pacienti."],
+    "languageNames": ["Hrvaščina", "Angleščina", "Slovenščina"], "languageLevels": ["Materni jezik", "Poklicna raven", "Poklicna raven"],
+    "connectTitle": "Poiščite me na spletu", "sicris": "Bibliografija SICRIS", "backToTop": "Nazaj na vrh"
+  }
+}

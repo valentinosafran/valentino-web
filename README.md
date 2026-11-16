@@ -7,9 +7,25 @@ package installation or third-party font service is needed.
 ## Preview and edit
 
 Run `python -m http.server 4173 --bind 127.0.0.1` in this folder, then open
-http://127.0.0.1:4173/. Edit `index.html` for content and
-`assets/css/cv.css` for appearance. Keep the page title, description,
-social metadata and `sitemap.xml` date in sync with substantive updates.
+http://127.0.0.1:4173/. The English page is at `/`, Croatian at `/hr/`
+and Slovenian at `/sl/`. Edit `scripts/site/content.json` for website copy,
+`scripts/cv/content.json` for shared CV translations, and
+`scripts/site/page.template.html` for page structure. Edit
+`assets/css/cv.css` for appearance, then regenerate the saved pages:
+
+```sh
+python scripts/site/build_pages.py
+```
+
+The generator uses only the Python standard library. It writes all three
+HTML pages, localized titles and metadata, canonical/hreflang links and
+the sitemap, and updates the stylesheet version from its content hash.
+The committed HTML is served directly; no browser JavaScript or Netlify
+build step is needed. Language selection is represented by the page URL,
+so refresh, direct links and sharing retain the selected language.
+Publication titles, journal names and DOIs are maintained in
+`scripts/site/publications.json` and stay in their original English.
+Regenerate the website before regenerating PDFs after publication edits.
 
 The portrait has 200 px and 400 px WebP versions. The original photographs,
 Pillar styles and Font Awesome assets remain in the repository for
@@ -22,19 +38,20 @@ required.
 
 ## Downloadable CVs
 
-The Download CV control offers English (EN), Croatian (HR) and Slovenian
-(SL). Each version is an individually designed two-page A4 PDF in
+The CV is available in English (EN), Croatian (HR) and Slovenian (SL),
+matching the selected website language. Each version is a two-page A4 PDF in
 `output/pdf/`, approximately 76-78 KB. The PDFs have embedded fonts,
 selectable text, language metadata and clickable contact/publication
 links. Academic publication titles remain in their original English.
 Contact details use valentino.safran@um.si. The PDFs contain no Netlify
 website mentions or links.
 
-The header offers three direct language buttons (EN, HR, SL), grouped
-under Download CV. It works without JavaScript; PDF files are requested
-only when a language is selected. Stylesheets revalidate on page visits,
-and a versioned stylesheet URL bypasses older cached styles. The PDFs
-also revalidate; versioned download URLs bypass earlier cached copies.
+The top utility bar switches the website language (EN, HR, SL), with an
+active-language indicator and translated content. Each page has one
+download button linked directly to its matching PDF; there is no separate
+PDF language picker. Both language switching and downloading work without
+JavaScript, and PDF files are requested only after clicking Download CV.
+Stylesheets and PDFs revalidate; versioned URLs bypass older cached files.
 Netlify's PDF response headers also request download behavior.
 
 To update the documents, edit the three language entries in
@@ -61,8 +78,10 @@ pdftoppm -r 110 -png output/pdf/valentino-safran-cv-en.pdf tmp/pdfs/cv-en
 Repeat for HR and SL and inspect every page. Intermediate previews and
 download checks are excluded from Git by `.gitignore`. All six final PDF
 pages were visually reviewed; page counts, text boundaries, language
-metadata and four DOI links were checked. The buttons were checked at eight
-screen widths, with keyboard use, actual downloads and JavaScript disabled.
+metadata and four DOI links were checked. All three languages are checked
+at eight screen widths, including keyboard navigation,
+refresh persistence, matching PDF downloads and JavaScript-disabled use.
+
 ## Restore the previous website
 
 The initial design refresh is one commit, identified by the annotated tag
