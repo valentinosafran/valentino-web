@@ -99,20 +99,12 @@ main:focus { outline: none; }
 .education p { color: var(--muted); font-size: .82rem; margin-top: .2rem; }
 .training { border-top: 1px solid var(--line); padding-top: 1rem; margin-top: 1.2rem; font-size: .82rem; color: var(--muted); }
 .training strong { color: var(--ink); font-weight: 650; }
-.updates li + li { margin-top: 1.35rem; }
-.updates h3 { font-size: .92rem; line-height: 1.5; }
-.updates h3 a { text-decoration: none; }
-.updates h3 a:hover { text-decoration: underline; }
-.updates li > p:last-child { font-size: .83rem; color: var(--muted); margin-top: .35rem; }
-.updates + .source-link { margin-top: 1rem; }
 .languages div { display: flex; justify-content: space-between; gap: .75rem; padding: .3rem 0; }
 .languages dd { color: var(--muted); font-size: .82rem; }
 .secondary-column .section > p { color: var(--muted); }
 .online-links a { display: flex; justify-content: space-between; align-items: center; min-height: 44px; border-bottom: 1px solid var(--line); text-decoration: none; }
 .online-links a:hover { text-decoration: underline; }
-.footer { display: flex; justify-content: space-between; align-items: center; gap: 1rem; border-top: 1px solid var(--line); padding: 1.4rem 3rem; font-size: .75rem; }
-.footer p span { color: var(--muted); }
-.footer > a { padding: .65rem 0; }
+.footer { border-top: 1px solid var(--line); padding: 1.4rem 3rem; font-size: .75rem; }
 @media (max-width: 900px) {
   body { padding: 1.5rem 1rem; }
   .profile { padding: 2rem; gap: 1.5rem; }
@@ -159,14 +151,14 @@ main:focus { outline: none; }
   .profile .role { font-size: 12pt; }
   .profile .subtitle { font-size: 10pt; margin-top: 2mm; }
   .profile-links { margin-top: 2mm; }
-  .navigation, .skip-link, .footer > a { display: none; }
+  .navigation, .skip-link { display: none; }
   main { padding: 0; }
   .cv-grid { display: block; }
   .secondary-column { padding: 0; border: 0; font-size: 9pt; }
   .section { margin-bottom: 6mm; }
   h2, h3, h4 { break-after: avoid; }
   p, li { orphans: 3; widows: 3; }
-  .project, .publications li, .education li, .updates li, .expertise div { break-inside: avoid; }
+  .project, .publications li, .education li, .expertise div { break-inside: avoid; }
   .section > h2, .section-heading { margin-bottom: 3mm; padding-bottom: 2mm; }
   .project { margin-top: 4mm; }
   .footer { padding: 3mm 0 0; }

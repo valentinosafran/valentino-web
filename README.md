@@ -71,7 +71,7 @@ Changes include:
   navigation, semantic landmarks and print styles.
 - Descriptive search and sharing metadata, a canonical URL, Person
   microdata, `robots.txt` and `sitemap.xml`.
-- Source-linked research updates and four selected publications.
+- Source-linked project descriptions and four selected publications.
 - A Git backup tag and a single reversible refresh commit.
 
 ### Content verification
