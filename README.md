@@ -20,9 +20,47 @@ sets security headers, HTML revalidation, and modest asset caching so
 subsequent edits can propagate. No hosting account or DNS changes are
 required.
 
+## Downloadable CVs
+
+The Download CV control offers English (EN), Croatian (HR) and Slovenian
+(SL). Each version is an individually designed two-page A4 PDF in
+`output/pdf/`, approximately 76-78 KB. The PDFs have embedded fonts,
+selectable text, language metadata and clickable contact/publication
+links. Academic publication titles remain in their original English.
+
+The picker uses native HTML disclosure and download links. It works
+without JavaScript, and PDF files are requested only after selection.
+Netlify's PDF response headers also request download behavior.
+
+To update the documents, edit the three language entries in
+`scripts/cv/content.json` to match the website, then run:
+
+```sh
+python -m pip install -r scripts/cv/requirements.txt
+python scripts/cv/build_pdfs.py
+```
+
+The generator reads publication titles, journals, author roles and DOIs
+directly from `index.html`. It uses Windows Segoe UI or Linux DejaVu Sans;
+`--font-dir` can select another directory containing those font files.
+PDF generation is an authoring step; the deployed site serves the saved
+files directly and needs no build command or Python runtime.
+
+The two-page layout is enforced during generation. Re-render all three
+versions after content changes, particularly longer translations:
+
+```sh
+pdftoppm -r 110 -png output/pdf/valentino-safran-cv-en.pdf tmp/pdfs/cv-en
+```
+
+Repeat for HR and SL and inspect every page. Intermediate previews and
+download checks are excluded from Git by `.gitignore`. All six final PDF
+pages were visually reviewed; page counts, text boundaries, language
+metadata and four DOI links were checked. The picker was checked at six
+screen widths, with keyboard use, actual downloads and JavaScript disabled.
 ## Restore the previous website
 
-The entire refresh is one commit, identified by the annotated tag
+The initial design refresh is one commit, identified by the annotated tag
 `cv-refresh-2026-11-16`. The previous site is preserved at
 `before-cv-refresh-2026-11-16` (commit `5683b534838bb04b679859216c5bd1841f2f2fcd`).
 

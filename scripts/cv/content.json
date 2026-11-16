@@ -1,0 +1,206 @@
+{
+  "en": {
+    "locale": "en-GB",
+    "language": "English",
+    "role": "PhD Student & Researcher",
+    "subtitle": "AI & Digital Health Transformation | IoT | Cybersecurity",
+    "location": "Maribor, Slovenia",
+    "affiliation": "University of Maribor · Faculty of Electrical Engineering and Computer Science (FERI)",
+    "profileTitle": "Profile",
+    "profile": "PhD student and researcher with the HUMADEX group at UM FERI, working at the intersection of AI, healthcare data interoperability, IoT and cybersecurity. With a master's degree in Telecommunications, I develop secure microservices and cloud infrastructure, integrate HL7 FHIR data flows, and help evaluate digital tools in clinical settings. My focus is on bringing reliable, connected digital health systems into practice through European research projects.",
+    "experienceTitle": "Research & professional experience",
+    "job": "Researcher, Teaching Assistant & Technical Associate",
+    "period": "2020 - present",
+    "lab": "HUMADEX · Laboratory for Digital Signal Processing",
+    "projects": [
+      {
+        "name": "REMERGE",
+        "focus": "Virtual twins & cardiovascular care",
+        "text": "Research exchange with Dextera Consulting in Limassol, Cyprus, exploring how AI and virtual twin technologies can support personalised cardiovascular care."
+      },
+      {
+        "name": "SMILE & AI4HOPE",
+        "focus": "Digital mental health & dementia care",
+        "text": "Expand FHIR server architecture and automate healthcare data flows. Implement Keycloak authentication, VPN and firewall controls; develop and maintain Python and Java microservices, virtual machines and containers."
+      },
+      {
+        "name": "HosmartAI",
+        "focus": "Clinical interoperability & social robotics",
+        "text": "Developed an HL7 FHIR patient-resource database, REST services and supporting infrastructure at UM FERI. Helped integrate and evaluate the Pepper humanoid robot with patients, doctors and nurses at University Medical Centre Maribor."
+      },
+      {
+        "name": "PALANTIR",
+        "focus": "Cybersecurity & threat mitigation",
+        "text": "Developed an incident-management component using finite state machines and Java's Spring State Machine framework. Integrated REST communication with Apache Camel and event streaming with Kafka; tested AI-based threat-detection microservices."
+      },
+      {
+        "name": "PERSIST",
+        "focus": "Patient sensing & quality of life",
+        "text": "Contributed to a multimodal sensing network for patient-reported data and quality-of-life assessment. Managed servers, virtual machines and containers; developed Python, Flask and Spring Boot services with MQTT, REST, Apache Camel and Kafka."
+      }
+    ],
+    "teachingTitle": "Teaching & collaboration",
+    "teaching": "Taught Android development and mentored student projects over two semesters. Contributed to research publications, project deliverables, technical reports, presentations and project reviews.",
+    "expertiseTitle": "Technical expertise",
+    "expertise": [
+      ["Digital health & AI", "HL7 FHIR, clinical data integration, conversational systems, AI/ML, LLM-assisted automation"],
+      ["Development", "Python, Java, Spring Boot, Flask, REST, finite state machines"],
+      ["Connected systems", "MQTT, Apache Kafka, Apache Camel, ActiveMQ Artemis"],
+      ["Infrastructure & security", "Linux, virtual machines, containers, Nginx, Keycloak, VPNs, firewalls"],
+      ["Monitoring", "Prometheus, Grafana, Sentry"]
+    ],
+    "educationTitle": "Education",
+    "degrees": [
+      ["PhD studies", "In progress"],
+      ["MSc in Telecommunications", "2019 - 2021"],
+      ["BSc in Telecommunications", "2015 - 2019"]
+    ],
+    "university": "University of Maribor · FERI",
+    "trainingTitle": "Additional training",
+    "training": "CCNA Academy · Amateur radio (HAM) course",
+    "languagesTitle": "Languages",
+    "languages": "Croatian - native<br/>English - professional<br/>Slovenian - professional",
+    "publicationsTitle": "Selected publications",
+    "firstAuthor": "First author",
+    "coAuthor": "Co-author",
+    "interestsTitle": "Beyond research",
+    "interests": "Swimming, scuba diving and apnea, hiking, music, books, video and image editing.",
+    "bibliography": "Full bibliography"
+  },
+  "hr": {
+    "locale": "hr-HR",
+    "language": "Hrvatski",
+    "role": "Doktorand i istraživač",
+    "subtitle": "Umjetna inteligencija i digitalna transformacija zdravstva | IoT | Kibernetička sigurnost",
+    "location": "Maribor, Slovenija",
+    "affiliation": "Sveučilište u Mariboru · Fakultet elektrotehnike, računarstva i informatike (FERI)",
+    "profileTitle": "Profil",
+    "profile": "Doktorand i istraživač u skupini HUMADEX na UM FERI-ju. Moj rad povezuje umjetnu inteligenciju, interoperabilnost zdravstvenih podataka, IoT i kibernetičku sigurnost. Nakon završenog magistarskog studija telekomunikacija razvijam sigurne mikroservise i infrastrukturu u oblaku, integriram tokove podataka prema standardu HL7 FHIR te sudjelujem u vrednovanju digitalnih alata u kliničkom okruženju. Kroz europske istraživačke projekte radim na primjeni pouzdanih i povezanih digitalnih zdravstvenih sustava.",
+    "experienceTitle": "Istraživačko i profesionalno iskustvo",
+    "job": "Istraživač, asistent u nastavi i tehnički suradnik",
+    "period": "2020 - danas",
+    "lab": "HUMADEX · Laboratorij za digitalnu obradu signala",
+    "projects": [
+      {
+        "name": "REMERGE",
+        "focus": "Virtualni blizanci i kardiovaskularna skrb",
+        "text": "Istraživačka razmjena u tvrtki Dextera Consulting u Limassolu na Cipru. Istražujem primjenu umjetne inteligencije i virtualnih blizanaca u personaliziranoj kardiovaskularnoj skrbi."
+      },
+      {
+        "name": "SMILE & AI4HOPE",
+        "focus": "Digitalno mentalno zdravlje i skrb za osobe s demencijom",
+        "text": "Proširujem arhitekturu FHIR poslužitelja i automatiziram tokove zdravstvenih podataka. Implementiram autentifikaciju s pomoću Keycloaka, VPN i vatrozidna pravila te razvijam i održavam mikroservise u Pythonu i Javi, virtualne strojeve i kontejnere."
+      },
+      {
+        "name": "HosmartAI",
+        "focus": "Klinička interoperabilnost i socijalno asistivna robotika",
+        "text": "Razvio sam bazu podataka o pacijentima prema standardu HL7 FHIR, REST servise i prateću infrastrukturu na UM FERI-ju. Sudjelovao sam u integraciji i vrednovanju humanoidnog robota Pepper s pacijentima, liječnicima i medicinskim sestrama u UKC-u Maribor."
+      },
+      {
+        "name": "PALANTIR",
+        "focus": "Kibernetička sigurnost i ublažavanje prijetnji",
+        "text": "Razvio sam komponentu za upravljanje incidentima s pomoću konačnih automata i okvira Spring State Machine u Javi. Integrirao sam REST komunikaciju putem Apache Camela i tokove događaja putem Kafke te testirao mikroservise za otkrivanje prijetnji primjenom umjetne inteligencije."
+      },
+      {
+        "name": "PERSIST",
+        "focus": "Multimodalno prikupljanje podataka i kvaliteta života",
+        "text": "Sudjelovao sam u razvoju multimodalne mreže za prikupljanje podataka koje prijavljuju pacijenti i procjenu kvalitete života. Upravljao sam poslužiteljima, virtualnim strojevima i kontejnerima te razvijao servise u Pythonu, Flasku i Spring Bootu uz MQTT, REST, Apache Camel i Kafku."
+      }
+    ],
+    "teachingTitle": "Nastava i suradnja",
+    "teaching": "Tijekom dva semestra održavao sam nastavu razvoja Android aplikacija i mentorirao studentske projekte. Sudjelovao sam u pripremi znanstvenih radova, projektnih rezultata, tehničkih izvješća, prezentacija i projektnih pregleda.",
+    "expertiseTitle": "Tehničke vještine",
+    "expertise": [
+      ["Digitalno zdravlje i umjetna inteligencija", "HL7 FHIR, integracija kliničkih podataka, razgovorni sustavi, AI/ML, automatizacija uz velike jezične modele"],
+      ["Razvoj softvera", "Python, Java, Spring Boot, Flask, REST, konačni automati"],
+      ["Povezani sustavi", "MQTT, Apache Kafka, Apache Camel, ActiveMQ Artemis"],
+      ["Infrastruktura i sigurnost", "Linux, virtualni strojevi, kontejneri, Nginx, Keycloak, VPN, vatrozidi"],
+      ["Nadzor sustava", "Prometheus, Grafana, Sentry"]
+    ],
+    "educationTitle": "Obrazovanje",
+    "degrees": [
+      ["Doktorski studij", "U tijeku"],
+      ["Magistarski studij telekomunikacija (MSc)", "2019 - 2021"],
+      ["Preddiplomski studij telekomunikacija (BSc)", "2015 - 2019"]
+    ],
+    "university": "Sveučilište u Mariboru · FERI",
+    "trainingTitle": "Dodatno usavršavanje",
+    "training": "CCNA akademija · Tečaj za radioamatere (HAM)",
+    "languagesTitle": "Jezici",
+    "languages": "Hrvatski - materinski<br/>Engleski - profesionalna razina<br/>Slovenski - profesionalna razina",
+    "publicationsTitle": "Odabrane publikacije",
+    "firstAuthor": "Prvi autor",
+    "coAuthor": "Koautor",
+    "interestsTitle": "Izvan istraživanja",
+    "interests": "Plivanje, ronjenje s bocama i na dah, planinarenje, glazba, knjige te obrada videa i fotografija.",
+    "bibliography": "Cjelovita bibliografija"
+  },
+  "sl": {
+    "locale": "sl-SI",
+    "language": "Slovenščina",
+    "role": "Doktorski študent in raziskovalec",
+    "subtitle": "Umetna inteligenca in digitalna preobrazba zdravstva | IoT | Kibernetska varnost",
+    "location": "Maribor, Slovenija",
+    "affiliation": "Univerza v Mariboru · Fakulteta za elektrotehniko, računalništvo in informatiko (FERI)",
+    "profileTitle": "Profil",
+    "profile": "Sem doktorski študent in raziskovalec v skupini HUMADEX na UM FERI. Moje delo povezuje umetno inteligenco, interoperabilnost zdravstvenih podatkov, internet stvari in kibernetsko varnost. Po zaključenem magistrskem študiju telekomunikacij razvijam varne mikrostoritve in infrastrukturo v oblaku, povezujem podatkovne tokove po standardu HL7 FHIR ter sodelujem pri vrednotenju digitalnih orodij v kliničnem okolju. V evropskih raziskovalnih projektih se osredotočam na prenos zanesljivih in povezanih digitalnih zdravstvenih sistemov v prakso.",
+    "experienceTitle": "Raziskovalne in poklicne izkušnje",
+    "job": "Raziskovalec, asistent in strokovni sodelavec",
+    "period": "2020 - danes",
+    "lab": "HUMADEX · Laboratorij za digitalno procesiranje signalov",
+    "projects": [
+      {
+        "name": "REMERGE",
+        "focus": "Virtualni dvojčki in srčno-žilna obravnava",
+        "text": "Raziskovalna izmenjava pri podjetju Dextera Consulting v Limassolu na Cipru. Raziskujem, kako lahko umetna inteligenca in tehnologije virtualnih dvojčkov podprejo prilagojeno srčno-žilno obravnavo."
+      },
+      {
+        "name": "SMILE & AI4HOPE",
+        "focus": "Digitalno duševno zdravje in oskrba oseb z demenco",
+        "text": "Razširjam arhitekturo strežnika FHIR in avtomatiziram tokove zdravstvenih podatkov. Vpeljujem avtentikacijo s Keycloakom, VPN in pravila požarnega zidu ter razvijam in vzdržujem mikrostoritve v Pythonu in Javi, navidezne stroje in vsebnike."
+      },
+      {
+        "name": "HosmartAI",
+        "focus": "Klinična interoperabilnost in socialno podporna robotika",
+        "text": "Razvil sem podatkovno zbirko o pacientih po standardu HL7 FHIR, storitve REST in podporno infrastrukturo na UM FERI. Sodeloval sem pri integraciji in vrednotenju humanoidnega robota Pepper s pacienti, zdravniki in medicinskimi sestrami v UKC Maribor."
+      },
+      {
+        "name": "PALANTIR",
+        "focus": "Kibernetska varnost in zmanjševanje groženj",
+        "text": "Razvil sem komponento za upravljanje incidentov s končnimi avtomati in ogrodjem Spring State Machine v Javi. Povezal sem komunikacijo REST z Apache Camelom in pretakanje dogodkov s Kafko ter preizkušal mikrostoritve za zaznavanje groženj z umetno inteligenco."
+      },
+      {
+        "name": "PERSIST",
+        "focus": "Večmodalno zaznavanje in kakovost življenja",
+        "text": "Sodeloval sem pri razvoju večmodalnega zaznavnega omrežja za podatke, o katerih poročajo pacienti, in ocenjevanje kakovosti življenja. Upravljal sem strežnike, navidezne stroje in vsebnike ter razvijal storitve s Pythonom, Flaskom in Spring Bootom z MQTT, REST, Apache Camelom in Kafko."
+      }
+    ],
+    "teachingTitle": "Poučevanje in sodelovanje",
+    "teaching": "Dva semestra sem poučeval razvoj aplikacij za Android in mentoriral študentske projekte. Sodeloval sem pri pripravi znanstvenih objav, projektnih rezultatov, tehničnih poročil, predstavitev in projektnih pregledov.",
+    "expertiseTitle": "Tehnična znanja",
+    "expertise": [
+      ["Digitalno zdravje in umetna inteligenca", "HL7 FHIR, povezovanje kliničnih podatkov, pogovorni sistemi, AI/ML, avtomatizacija z velikimi jezikovnimi modeli"],
+      ["Razvoj programske opreme", "Python, Java, Spring Boot, Flask, REST, končni avtomati"],
+      ["Povezani sistemi", "MQTT, Apache Kafka, Apache Camel, ActiveMQ Artemis"],
+      ["Infrastruktura in varnost", "Linux, navidezni stroji, vsebniki, Nginx, Keycloak, VPN, požarni zidovi"],
+      ["Spremljanje sistemov", "Prometheus, Grafana, Sentry"]
+    ],
+    "educationTitle": "Izobrazba",
+    "degrees": [
+      ["Doktorski študij", "V teku"],
+      ["Magistrski študij telekomunikacij (MSc)", "2019 - 2021"],
+      ["Dodiplomski študij telekomunikacij (BSc)", "2015 - 2019"]
+    ],
+    "university": "Univerza v Mariboru · FERI",
+    "trainingTitle": "Dodatno usposabljanje",
+    "training": "Akademija CCNA · Radioamaterski tečaj (HAM)",
+    "languagesTitle": "Jeziki",
+    "languages": "Hrvaščina - materni jezik<br/>Angleščina - poklicna raven<br/>Slovenščina - poklicna raven",
+    "publicationsTitle": "Izbrane objave",
+    "firstAuthor": "Prvi avtor",
+    "coAuthor": "Soavtor",
+    "interestsTitle": "Zunaj raziskovanja",
+    "interests": "Plavanje, potapljanje z jeklenko in na vdih, pohodništvo, glasba, knjige ter obdelava videa in fotografij.",
+    "bibliography": "Celotna bibliografija"
+  }
+}
