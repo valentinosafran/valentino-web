@@ -23,7 +23,7 @@ body {
 }
 a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: .2em; }
 a:hover { text-decoration-thickness: 2px; }
-a:focus-visible, summary:focus-visible { outline: 3px solid #a66b1e; outline-offset: 5px; border-radius: 2px; }
+a:focus-visible { outline: 3px solid #a66b1e; outline-offset: 5px; border-radius: 2px; }
 p, h1, h2, h3, h4, ul, ol, dl, dd { margin: 0; }
 p + p { margin-top: .8rem; }
 h1, h2, h3, h4 { line-height: 1.3; }
@@ -60,30 +60,18 @@ h1 { font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 700; letter-spacing: -.04
 .navigation a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; text-decoration: none; }
 .navigation a:hover { text-decoration: underline; }
 .contact-link { gap: .45rem; }
-.navigation-actions { display: flex; align-items: center; gap: 1.5rem; }
-.cv-download { position: relative; flex-shrink: 0; }
-.cv-download summary {
-  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
-  min-height: 44px; padding: .5rem 1rem; cursor: pointer; list-style: none;
-  border: 1px solid var(--accent); border-radius: 5px;
-  background: var(--accent); color: #fff; font-weight: 650;
+.cv-download { display: flex; align-items: center; flex-wrap: wrap; gap: .6rem 1rem; margin-top: 1.15rem; font-size: .8rem; }
+.download-label { display: inline-flex; align-items: center; gap: .55rem; color: #e0e7ed; font-weight: 550; }
+.download-languages { display: inline-flex; gap: .35rem; }
+.download-languages a {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 44px; min-height: 44px; padding: .45rem .65rem;
+  border: 1px solid #8f9eac; border-radius: 5px;
+  background: #415365; color: #fff; text-decoration: none;
+  font-size: .78rem; font-weight: 650; letter-spacing: .025em;
 }
-.cv-download summary::-webkit-details-marker { display: none; }
-.cv-download summary:hover, .cv-download[open] summary { background: var(--header); border-color: var(--header); }
-.download-menu {
-  position: absolute; right: 0; top: calc(100% + .6rem); z-index: 3;
-  width: 245px; max-width: calc(100vw - 3rem); padding: .7rem;
-  border: 1px solid var(--line); border-radius: 7px; background: var(--paper);
-  box-shadow: 0 8px 24px rgb(38 54 70 / 12%);
-}
-.download-menu > p { padding: .25rem .55rem .65rem; font-size: .8rem; font-weight: 650; color: var(--ink); }
-.download-menu > p > span { display: block; margin-top: .1rem; color: var(--muted); font-size: .72rem; font-weight: 400; }
-.navigation .download-menu a {
-  display: flex; justify-content: space-between; gap: 1rem;
-  padding: .5rem .55rem; border-radius: 3px; font-weight: 500;
-}
-.navigation .download-menu a:hover { background: var(--background); text-decoration: none; }
-.language-code { font-size: .72rem; font-weight: 650; color: var(--muted); }
+.download-languages a:hover { background: #fff; color: var(--header); border-color: #fff; }
+.download-languages a:focus-visible { outline-color: #f4cf8d; }
 main { padding: 2.5rem 3rem 0; }
 main:focus { outline: none; }
 .section { margin-bottom: 2.5rem; scroll-margin-top: 1.5rem; }
@@ -144,9 +132,7 @@ main:focus { outline: none; }
   .cv-grid { grid-template-columns: 1fr; gap: 0; }
   .secondary-column { border-left: 0; padding-left: 0; }
   .desktop-break { display: none; }
-  .navigation { padding-inline: 1.5rem; flex-wrap: wrap; gap: .5rem; }
-  .navigation ul { flex: 1 1 100%; }
-  .navigation-actions { margin-left: auto; }
+  .navigation { padding-inline: 1.5rem; }
   .navigation ul { column-gap: 1.2rem; }
   .contact-link { display: none !important; }
   main { padding: 1.75rem 1.5rem 0; }
@@ -178,7 +164,7 @@ main:focus { outline: none; }
   .profile .role { font-size: 12pt; }
   .profile .subtitle { font-size: 10pt; margin-top: 2mm; }
   .profile-links { margin-top: 2mm; }
-  .navigation, .skip-link, .back-to-top { display: none; }
+  .navigation, .skip-link, .back-to-top, .cv-download { display: none; }
   main { padding: 0; }
   .cv-grid { display: block; }
   .secondary-column { padding: 0; border: 0; font-size: 9pt; }

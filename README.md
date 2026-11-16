@@ -27,9 +27,14 @@ The Download CV control offers English (EN), Croatian (HR) and Slovenian
 `output/pdf/`, approximately 76-78 KB. The PDFs have embedded fonts,
 selectable text, language metadata and clickable contact/publication
 links. Academic publication titles remain in their original English.
+Contact details use valentino.safran@um.si. The PDFs contain no Netlify
+website mentions or links.
 
-The picker uses native HTML disclosure and download links. It works
-without JavaScript, and PDF files are requested only after selection.
+The header offers three direct language buttons (EN, HR, SL), grouped
+under Download CV. It works without JavaScript; PDF files are requested
+only when a language is selected. Stylesheets revalidate on page visits,
+and a versioned stylesheet URL bypasses older cached styles. The PDFs
+also revalidate; versioned download URLs bypass earlier cached copies.
 Netlify's PDF response headers also request download behavior.
 
 To update the documents, edit the three language entries in
@@ -56,7 +61,7 @@ pdftoppm -r 110 -png output/pdf/valentino-safran-cv-en.pdf tmp/pdfs/cv-en
 Repeat for HR and SL and inspect every page. Intermediate previews and
 download checks are excluded from Git by `.gitignore`. All six final PDF
 pages were visually reviewed; page counts, text boundaries, language
-metadata and four DOI links were checked. The picker was checked at six
+metadata and four DOI links were checked. The buttons were checked at eight
 screen widths, with keyboard use, actual downloads and JavaScript disabled.
 ## Restore the previous website
 

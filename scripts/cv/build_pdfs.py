@@ -31,8 +31,7 @@ from reportlab.lib.utils import ImageReader
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "output" / "pdf"
-SITE = "https://valentino-web.netlify.app/"
-EMAIL = "valentino.safran@gmail.com"
+EMAIL = "valentino.safran@um.si"
 INK = colors.HexColor("#263646")
 MUTED = colors.HexColor("#526372")
 ACCENT = colors.HexColor("#305d7b")
@@ -180,8 +179,7 @@ def header(canvas, doc):
     canvas.line(MARGIN, 15 * mm, W - MARGIN, 15 * mm)
     canvas.setFillColor(MUTED)
     canvas.setFont("CV", 7.6)
-    canvas.drawString(MARGIN, 10 * mm, "valentino-web.netlify.app")
-    canvas.linkURL(SITE, (MARGIN, 9 * mm, MARGIN + 150, 13 * mm), relative=0)
+    canvas.drawString(MARGIN, 10 * mm, "Valentino Šafran")
     canvas.drawRightString(W - MARGIN, 10 * mm, d["language"] + "  |  " + str(doc.page) + " / 2")
     canvas.restoreState()
 
